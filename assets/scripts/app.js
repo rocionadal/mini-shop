@@ -68,6 +68,7 @@ class ShoppingCart extends Component {
     };
     this.render();
   }
+  
   addProduct(product) {
     const updatedItems = [...this.items];
     updatedItems.push(product);
